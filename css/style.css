@@ -181,6 +181,7 @@ footer,
 .projects,
 .about,
 .timeline,
+.experience,
 .contact {
     border-top: 1px solid var(--cor-linha);
 }
@@ -404,6 +405,16 @@ footer,
     font-size: 14px;
 }
 
+.experience-content {
+    margin-left: 25%;
+    max-width: 800px;
+}
+
+.experience-content p {
+    font-size: 18px;
+    color: var(--cor-texto-secundario);
+}
+
 .contact-content {
     margin-left: 25%;
     max-width: 750px;
@@ -607,7 +618,8 @@ footer {
     }
 
     .timeline-list,
-    .contact-content {
+    .contact-content,
+    .experience-content {
         margin-left: 0;
     }
 
@@ -714,7 +726,8 @@ footer {
         font-size: 30px;
     }
 
-    .contact-content > p {
+    .contact-content > p,
+    .experience-content p {
         font-size: 16px;
     }
 

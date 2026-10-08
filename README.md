@@ -19,17 +19,17 @@
 - [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
 - [🚀 Como Executar](#-como-executar)
+- [🎨 Protótipos](#-protótipos)
 - [📁 Projetos](#-projetos)
 - [👤 Autor](#-autor)
-- [🙏 Agradecimentos](#-agradecimentos)
 
 ---
 
 ## 🔗 Links Úteis
 
-- 🌐 **Site:** Em breve
-- 📂 **Repositório:** [github.com/gustavonmsouza/portfolio](https://github.com/gustavonmsouza/portfolio)
-- 💼 **LinkedIn:** [linkedin.com/in/gustavo-norberto](https://www.linkedin.com/in/gustavo-norberto)
+- 🌐 **Site publicado:** [Acessar portfólio](https://gustavonmsouza.github.io/portfolio/)
+- 📂 **Repositório:** [GitHub](https://github.com/gustavonmsouza/portfolio)
+- 💼 **LinkedIn:** [gustavonmsouza](https://www.linkedin.com/in/gustavo-norberto)
 - 📧 **E-mail:** gustavonmsouza@gmail.com
 
 ---
@@ -56,11 +56,12 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 
 ## ✨ Funcionalidades
 
-- 👤 **Apresentação pessoal:** informações sobre minha formação, conhecimentos e objetivos profissionais.
+- 👤 **Apresentação pessoal:** informações sobre minha formação, meus conhecimentos e meus objetivos profissionais.
 - 📁 **Projetos acadêmicos:** apresentação dos projetos desenvolvidos durante minha formação.
-- 📄 **Páginas individuais:** cada projeto possui uma página própria com informações sobre seu desenvolvimento.
+- 📄 **Páginas individuais:** páginas dedicadas aos projetos Sistema Anti-Enchente e Quorbe.
 - 🌐 **Português e Inglês:** alternância entre os dois idiomas.
-- 🧭 **Navegação por seções:** acesso às áreas de projetos, sobre, trajetória e contato.
+- 🌗 **Modo claro e escuro:** alternância entre temas visuais.
+- 🧭 **Navegação por seções:** acesso às áreas de projetos, sobre, trajetória, experiências e contato.
 - 📱 **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
 - 🔗 **Links profissionais:** acesso ao GitHub, LinkedIn e e-mail.
 - ✨ **Interações visuais:** efeitos e animações implementados com CSS e JavaScript.
@@ -72,14 +73,16 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 ### 💻 Desenvolvimento Web
 
 - **HTML5:** estrutura das páginas.
-- **CSS3:** estilos, layout, tipografia e responsividade.
-- **JavaScript:** interações e alternância de idiomas.
+- **CSS3:** estilos, layout, tipografia, temas visuais e responsividade.
+- **JavaScript:** interações e alternância de idiomas e temas.
 
 ### 🛠️ Ferramentas
 
-- **VS Code:** editor de código.
+- **Visual Studio Code:** editor de código.
 - **Git:** controle de versão.
 - **GitHub:** armazenamento e gerenciamento do repositório.
+- **GitHub Pages:** hospedagem gratuita do portfólio.
+- **Figma:** ferramenta de prototipação da interface.
 
 ---
 
@@ -109,8 +112,8 @@ portfolio/
 - `projeto-estudos.html`: página do projeto Quorbe.
 - `css/style.css`: estilos da página inicial.
 - `css/projeto.css`: estilos das páginas dos projetos.
-- `js/script.js`: interações e alternância de idioma da página inicial.
-- `js/projeto.js`: interações e alternância de idioma das páginas dos projetos.
+- `js/script.js`: interações e alternância de idioma e tema da página inicial.
+- `js/projeto.js`: interações e alternância de idioma e tema das páginas dos projetos.
 - `assets/images/`: imagens utilizadas no site.
 
 ---
@@ -118,6 +121,12 @@ portfolio/
 ## 🚀 Como Executar
 
 O projeto utiliza HTML, CSS e JavaScript, sem necessidade de instalar dependências.
+
+### Pré-requisitos
+
+- Navegador atualizado.
+- Visual Studio Code, recomendado para edição.
+- Extensão Live Server no VS Code, recomendada para executar o projeto localmente.
 
 ### 1. Clone o repositório
 
@@ -131,11 +140,29 @@ git clone https://github.com/gustavonmsouza/portfolio.git
 cd portfolio
 ```
 
-### 3. Abra o site
+### 3. Abra o projeto no Visual Studio Code
 
-Abra o arquivo `index.html` diretamente no navegador.
+```bash
+code .
+```
 
-Também é possível abrir a pasta do projeto no VS Code e utilizar uma extensão de servidor local, caso tenha uma instalada.
+### 4. Execute o site
+
+No VS Code, abra o arquivo `index.html`.
+
+Se tiver o Live Server instalado, clique com o botão direito no arquivo e selecione **Open with Live Server**.
+
+Também é possível abrir o arquivo `index.html` diretamente no navegador.
+
+---
+
+## 🎨 Protótipos
+
+Os protótipos da interface foram elaborados durante o planejamento do portfólio.
+
+Esta seção deve reunir imagens dos wireframes e protótipos desenvolvidos no Figma, permitindo visualizar a proposta inicial da interface e sua organização.
+
+**Imagens dos protótipos:** adicionar aqui as imagens exportadas do Figma.
 
 ---
 
@@ -147,7 +174,7 @@ Projeto acadêmico desenvolvido durante o Trabalho Interdisciplinar I da gradua�
 
 O sistema utiliza Arduino e sensores para monitorar o nível da água e identificar diferentes situações de risco. LEDs, buzzer e servo motor simulam as respostas automáticas do sistema.
 
-**Tecnologias do projeto:** Arduino, C++ e Tinkercad.
+**Tecnologias:** Arduino, C++ e Tinkercad.
 
 **Repositório:** [Sistema Anti-Enchente](https://github.com/gustavonmsouza/sensor-enchentes-arduino)
 
@@ -157,7 +184,7 @@ Projeto acadêmico de uma plataforma educacional com foco na organização dos e
 
 O projeto envolve o planejamento da interface e o desenvolvimento front-end de uma plataforma voltada à organização da rotina acadêmica.
 
-**Tecnologias do projeto:** HTML, CSS e JavaScript.
+**Tecnologias:** HTML, CSS e JavaScript.
 
 **Repositório:** [Quorbe — Plataforma de Estudos](https://github.com/gustavonmsouza/plataforma-estudos-ti2)
 
@@ -172,10 +199,3 @@ Estudante de Ciência da Computação na PUC Minas.
 - 💻 **GitHub:** [gustavonmsouza](https://github.com/gustavonmsouza)
 - 💼 **LinkedIn:** [gustavo-norberto](https://www.linkedin.com/in/gustavo-norberto)
 - 📧 **E-mail:** gustavonmsouza@gmail.com
-
----
-
-## 🙏 Agradecimentos
-
-- **PUC Minas:** pela formação acadêmica em Ciência da Computação.
-- **Professor João Paulo Aramuni:** pelo template de documentação utilizado como referência para a organização deste README.
