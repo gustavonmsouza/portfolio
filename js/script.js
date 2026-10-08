@@ -34,4 +34,42 @@ if (botaoIdioma) {
     botaoIdioma.addEventListener("click", trocarIdioma);
 }
 
+function aplicarTema() {
+    const tema = localStorage.getItem("tema") || "claro";
+    const temaEscuro = tema === "escuro";
+    const botaoTema = document.getElementById("theme-toggle");
+
+    document.documentElement.classList.toggle("tema-escuro", temaEscuro);
+
+    if (botaoTema) {
+        botaoTema.setAttribute(
+            "aria-label",
+            temaEscuro ? "Ativar modo claro" : "Ativar modo escuro"
+        );
+
+        botaoTema.setAttribute("aria-pressed", String(temaEscuro));
+
+        botaoTema.setAttribute(
+            "title",
+            temaEscuro ? "Ativar modo claro" : "Ativar modo escuro"
+        );
+    }
+}
+
+function trocarTema() {
+    const temaAtual = localStorage.getItem("tema") || "claro";
+    const novoTema = temaAtual === "claro" ? "escuro" : "claro";
+
+    localStorage.setItem("tema", novoTema);
+
+    aplicarTema();
+}
+
+const botaoTema = document.getElementById("theme-toggle");
+
+if (botaoTema) {
+    botaoTema.addEventListener("click", trocarTema);
+}
+
 aplicarIdioma();
+aplicarTema();

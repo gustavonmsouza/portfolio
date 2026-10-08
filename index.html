@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F2F2F0">
 
     <title>Gustavo Norberto — Portfólio</title>
 
@@ -22,7 +23,18 @@
             <a href="#trajetoria" data-pt="Trajetória" data-en="Journey">Trajetória</a>
             <a href="#contato" data-pt="Contato" data-en="Contact">Contato</a>
 
-            <button id="language-toggle">EN</button>
+            <button id="language-toggle" type="button">EN</button>
+
+            <button
+                class="theme-toggle"
+                id="theme-toggle"
+                type="button"
+                aria-label="Ativar modo escuro"
+                title="Alternar tema"
+                aria-pressed="false"
+            >
+                <span aria-hidden="true"></span>
+            </button>
         </nav>
 
     </header>
@@ -33,6 +45,7 @@
 
             <div class="hero-meta">
                 <span>Gustavo Norberto</span>
+
                 <span
                     data-pt="Belo Horizonte — Brasil"
                     data-en="Belo Horizonte — Brazil"
@@ -111,9 +124,7 @@
 
                 <a href="projeto-enchente.html" class="project">
 
-                    <span class="project-number">
-                        01
-                    </span>
+                    <span class="project-number">01</span>
 
                     <div class="project-info">
 
@@ -144,15 +155,11 @@
 
                 <a href="projeto-estudos.html" class="project">
 
-                    <span class="project-number">
-                        02
-                    </span>
+                    <span class="project-number">02</span>
 
                     <div class="project-info">
 
-                        <h3>
-                            Quorbe
-                        </h3>
+                        <h3>Quorbe</h3>
 
                         <p
                             data-pt="Interface para uma plataforma educacional com foco em organização e gamificação."
@@ -174,9 +181,7 @@
 
                 <a href="#" class="project">
 
-                    <span class="project-number">
-                        03
-                    </span>
+                    <span class="project-number">03</span>
 
                     <div class="project-info">
 
@@ -369,9 +374,7 @@
 
                 <div class="timeline-item">
 
-                    <span>
-                        2024
-                    </span>
+                    <span>2024</span>
 
                     <div>
 
@@ -396,9 +399,7 @@
 
                 <div class="timeline-item">
 
-                    <span>
-                        2026
-                    </span>
+                    <span>2026</span>
 
                     <div>
 
@@ -423,9 +424,7 @@
 
                 <div class="timeline-item">
 
-                    <span>
-                        2026
-                    </span>
+                    <span>2026</span>
 
                     <div>
 
@@ -529,15 +528,14 @@
 
                 <div class="social-links">
 
-                    <a
-                        href="mailto:gustavonmsouza@gmail.com"
-                    >
+                    <a href="mailto:gustavonmsouza@gmail.com">
                         E-mail ↗
                     </a>
 
                     <a
                         href="https://github.com/gustavonmsouza"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         GitHub ↗
                     </a>
@@ -545,6 +543,7 @@
                     <a
                         href="https://www.linkedin.com/in/gustavo-norberto"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         LinkedIn ↗
                     </a>
