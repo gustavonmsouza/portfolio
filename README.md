@@ -1,6 +1,6 @@
 # 🏷️ Portfólio Profissional — Gustavo Norberto 👨‍💻
 
-> Portfólio profissional desenvolvido para apresentar minha trajetória acadêmica, conhecimentos em tecnologia e projetos desenvolvidos durante minha formação em Ciência da Computação.
+> Portfólio acadêmico desenvolvido para apresentar minha trajetória na Ciência da Computação, meus projetos e minhas formas de contato.
 
 ---
 
@@ -15,19 +15,13 @@
 
 - [🔗 Links Úteis](#-links-úteis)
 - [📝 Sobre o Projeto](#-sobre-o-projeto)
-- [✨ Funcionalidades Principais](#-funcionalidades-principais)
+- [✨ Funcionalidades](#-funcionalidades)
 - [🛠 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🏗️ Arquitetura](#️-arquitetura)
-- [📂 Estrutura de Pastas](#-estrutura-de-pastas)
-- [🔧 Instalação e Execução](#-instalação-e-execução)
-- [🌐 Deploy](#-deploy)
-- [🎥 Demonstração](#-demonstração)
-- [🧪 Testes](#-testes)
-- [📚 Documentações Utilizadas](#-documentações-utilizadas)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Como Executar](#-como-executar)
+- [📁 Projetos](#-projetos)
 - [👤 Autor](#-autor)
-- [🤝 Contribuição](#-contribuição)
 - [🙏 Agradecimentos](#-agradecimentos)
-- [📄 Licença](#-licença)
 
 ---
 
@@ -44,7 +38,7 @@
 
 Este projeto consiste no desenvolvimento do meu **Portfólio Profissional**, criado durante minha formação em **Ciência da Computação na PUC Minas**.
 
-O objetivo é apresentar minha trajetória acadêmica, conhecimentos técnicos e projetos desenvolvidos ao longo da graduação, reunindo essas informações em uma interface web própria.
+O objetivo é apresentar minha trajetória acadêmica, meus conhecimentos técnicos e os projetos desenvolvidos ao longo da graduação, reunindo essas informações em uma interface web própria.
 
 O portfólio também funciona como um espaço para acompanhar minha evolução na área de tecnologia e adicionar novos projetos conforme minha formação avançar.
 
@@ -52,24 +46,24 @@ O portfólio também funciona como um espaço para acompanhar minha evolução n
 
 Sou estudante de **Ciência da Computação na PUC Minas** e estou construindo minha base em programação e desenvolvimento de software por meio das disciplinas da graduação e de projetos acadêmicos.
 
-Atualmente, estudo e pratico diferentes linguagens e conceitos de programação, incluindo **C, C++, Java, JavaScript, algoritmos, estruturas de dados, engenharia de software e banco de dados**.
+Atualmente, estudo diferentes linguagens e conceitos de programação, incluindo **C, C++, Java, JavaScript, algoritmos, estruturas de dados, engenharia de software e banco de dados**.
 
-Também venho desenvolvendo projetos relacionados ao desenvolvimento web, interfaces e prototipação, utilizando ferramentas como **HTML, CSS, JavaScript, Figma, Miro, Git e GitHub**.
+Também venho desenvolvendo projetos relacionados ao desenvolvimento web e à criação de interfaces, utilizando HTML, CSS e JavaScript.
 
 Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e buscar minha primeira experiência profissional na área de tecnologia.
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Funcionalidades
 
 - 👤 **Apresentação pessoal:** informações sobre minha formação, conhecimentos e objetivos profissionais.
-- 📁 **Projetos:** apresentação dos projetos desenvolvidos durante minha formação acadêmica.
+- 📁 **Projetos acadêmicos:** apresentação dos projetos desenvolvidos durante minha formação.
 - 📄 **Páginas individuais:** cada projeto possui uma página própria com informações sobre seu desenvolvimento.
-- 🌐 **Português e Inglês:** o portfólio possui suporte para dois idiomas.
+- 🌐 **Português e Inglês:** alternância entre os dois idiomas.
 - 🧭 **Navegação por seções:** acesso às áreas de projetos, sobre, trajetória e contato.
-- 📱 **Design responsivo:** adaptação da interface para diferentes tamanhos de tela.
+- 📱 **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
 - 🔗 **Links profissionais:** acesso ao GitHub, LinkedIn e e-mail.
-- ✨ **Interações visuais:** animações e efeitos de interação desenvolvidos com CSS e JavaScript.
+- ✨ **Interações visuais:** efeitos e animações implementados com CSS e JavaScript.
 
 ---
 
@@ -77,60 +71,111 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 
 ### 💻 Desenvolvimento Web
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-
-### 📚 Linguagens e conhecimentos apresentados
-
-- **C**
-- **C++**
-- **Java**
-- **JavaScript**
-- **Algoritmos**
-- **Estruturas de Dados**
-- **Engenharia de Software**
-- **Banco de Dados**
+- **HTML5:** estrutura das páginas.
+- **CSS3:** estilos, layout, tipografia e responsividade.
+- **JavaScript:** interações e alternância de idiomas.
 
 ### 🛠️ Ferramentas
 
-- **VS Code**
-- **Git**
-- **GitHub**
-- **Figma**
-- **Miro**
-- **Tinkercad**
-- **Arduino**
+- **VS Code:** editor de código.
+- **Git:** controle de versão.
+- **GitHub:** armazenamento e gerenciamento do repositório.
 
 ---
 
-## 🏗️ Arquitetura
-
-O projeto utiliza uma arquitetura simples baseada em tecnologias web nativas.
+## 📂 Estrutura do Projeto
 
 ```text
-Usuário
-   │
-   ▼
-HTML
-   │
-   ├── Estrutura das páginas
-   │
-   ▼
-CSS
-   │
-   ├── Layout
-   ├── Tipografia
-   ├── Responsividade
-   └── Animações
-   │
-   ▼
-JavaScript
-   │
-   ├── Interações
-   └── Sistema de idiomas
-   │
-   ▼
-Assets
-   │
-   └── Imagens e recursos visuais
+portfolio/
+├── assets/
+│   └── images/
+│       └── circuito-enchente.png
+├── css/
+│   ├── projeto.css
+│   └── style.css
+├── js/
+│   ├── projeto.js
+│   └── script.js
+├── index.html
+├── projeto-enchente.html
+├── projeto-estudos.html
+└── README.md
+```
+
+### Principais arquivos
+
+- `index.html`: página inicial do portfólio.
+- `projeto-enchente.html`: página do projeto Sistema Anti-Enchente.
+- `projeto-estudos.html`: página do projeto Quorbe.
+- `css/style.css`: estilos da página inicial.
+- `css/projeto.css`: estilos das páginas dos projetos.
+- `js/script.js`: interações e alternância de idioma da página inicial.
+- `js/projeto.js`: interações e alternância de idioma das páginas dos projetos.
+- `assets/images/`: imagens utilizadas no site.
+
+---
+
+## 🚀 Como Executar
+
+O projeto utiliza HTML, CSS e JavaScript, sem necessidade de instalar dependências.
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/gustavonmsouza/portfolio.git
+```
+
+### 2. Acesse a pasta do projeto
+
+```bash
+cd portfolio
+```
+
+### 3. Abra o site
+
+Abra o arquivo `index.html` diretamente no navegador.
+
+Também é possível abrir a pasta do projeto no VS Code e utilizar uma extensão de servidor local, caso tenha uma instalada.
+
+---
+
+## 📁 Projetos
+
+### 1. Sistema Anti-Enchente
+
+Projeto acadêmico desenvolvido durante o Trabalho Interdisciplinar I da graduação em Ciência da Computação na PUC Minas.
+
+O sistema utiliza Arduino e sensores para monitorar o nível da água e identificar diferentes situações de risco. LEDs, buzzer e servo motor simulam as respostas automáticas do sistema.
+
+**Tecnologias do projeto:** Arduino, C++ e Tinkercad.
+
+**Repositório:** [Sistema Anti-Enchente](https://github.com/gustavonmsouza/sensor-enchentes-arduino)
+
+### 2. Quorbe
+
+Projeto acadêmico de uma plataforma educacional com foco na organização dos estudos, na experiência do usuário e na gamificação.
+
+O projeto envolve o planejamento da interface e o desenvolvimento front-end de uma plataforma voltada à organização da rotina acadêmica.
+
+**Tecnologias do projeto:** HTML, CSS e JavaScript.
+
+**Repositório:** [Quorbe — Plataforma de Estudos](https://github.com/gustavonmsouza/plataforma-estudos-ti2)
+
+---
+
+## 👤 Autor
+
+**Gustavo Norberto Medeiros de Souza**
+
+Estudante de Ciência da Computação na PUC Minas.
+
+- 💻 **GitHub:** [gustavonmsouza](https://github.com/gustavonmsouza)
+- 💼 **LinkedIn:** [gustavo-norberto](https://www.linkedin.com/in/gustavo-norberto)
+- 📧 **E-mail:** gustavonmsouza@gmail.com
+
+---
+
+## 🙏 Agradecimentos
+
+- **PUC Minas:** pela formação acadêmica em Ciência da Computação.
+- **Professor João Paulo Aramuni:** pelo template de documentação utilizado como referência para a organização deste README.
