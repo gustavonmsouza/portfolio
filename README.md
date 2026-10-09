@@ -6,7 +6,7 @@
 
 ## 🚧 Status do Projeto
 
-![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Conclu%C3%ADdo-brightgreen)
 ![Curso](https://img.shields.io/badge/Curso-Ci%C3%AAncia_da_Computa%C3%A7%C3%A3o_PUC_Minas-blue)
 
 ---
