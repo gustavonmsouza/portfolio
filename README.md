@@ -63,6 +63,7 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 - 🌗 **Modo claro e escuro:** alternância entre temas visuais.
 - 🧭 **Navegação por seções:** acesso às áreas de projetos, sobre, trajetória, experiências e contato.
 - 📱 **Layout responsivo:** adaptação da interface para diferentes tamanhos de tela.
+- ✉️ **Formulário de contato:** formulário para envio de mensagens.
 - 🔗 **Links profissionais:** acesso ao GitHub, LinkedIn e e-mail.
 - ✨ **Interações visuais:** efeitos e animações implementados com CSS e JavaScript.
 
@@ -82,7 +83,7 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 - **Git:** controle de versão.
 - **GitHub:** armazenamento e gerenciamento do repositório.
 - **GitHub Pages:** hospedagem gratuita do portfólio.
-- **Figma:** ferramenta de prototipação da interface.
+- **Figma:** criação dos protótipos das interfaces.
 
 ---
 
@@ -91,8 +92,12 @@ Meu objetivo é continuar evoluindo tecnicamente, desenvolver novos projetos e b
 ```text
 portfolio/
 ├── assets/
-│   └── images/
-│       └── circuito-enchente.png
+│   ├── images/
+│   │   └── circuito-enchente.png
+│   └── prototipos/
+│       ├── pagina-inicial.png
+│       ├── projeto-enchente.png
+│       └── projeto-quorbe.png
 ├── css/
 │   ├── projeto.css
 │   └── style.css
@@ -115,6 +120,7 @@ portfolio/
 - `js/script.js`: interações e alternância de idioma e tema da página inicial.
 - `js/projeto.js`: interações e alternância de idioma e tema das páginas dos projetos.
 - `assets/images/`: imagens utilizadas no site.
+- `assets/prototipos/`: imagens dos protótipos desenvolvidos no Figma.
 
 ---
 
@@ -158,11 +164,19 @@ Também é possível abrir o arquivo `index.html` diretamente no navegador.
 
 ## 🎨 Protótipos
 
-Os protótipos da interface foram elaborados durante o planejamento do portfólio.
+Os protótipos de média fidelidade foram desenvolvidos no Figma durante o planejamento da interface do portfólio. Eles representam a organização visual das páginas e seus principais elementos.
 
-Esta seção deve reunir imagens dos wireframes e protótipos desenvolvidos no Figma, permitindo visualizar a proposta inicial da interface e sua organização.
+### Página Inicial
 
-**Imagens dos protótipos:** adicionar aqui as imagens exportadas do Figma.
+![Protótipo da página inicial](assets/prototipos/pagina-inicial.png)
+
+### Sistema Anti-Enchente
+
+![Protótipo do Sistema Anti-Enchente](assets/prototipos/projeto-enchente.png)
+
+### Quorbe
+
+![Protótipo do Quorbe](assets/prototipos/projeto-quorbe.png)
 
 ---
 
